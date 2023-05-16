@@ -87,10 +87,9 @@ body {
 
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
-  margin-top: 41px;
-  transform: translateY(-50%);
+  margin-top: 37px;
+
   position: relative;
-  z-index: 1;
 }
 
 .slider::-webkit-slider-thumb {
@@ -258,7 +257,7 @@ input:checked + .button::before {
   background-color: #a4f3eb;
   width: 50%;
   height: 8px;
-  z-index: 2;
+
   top: 37px;
   border-radius: 5px;
 }
